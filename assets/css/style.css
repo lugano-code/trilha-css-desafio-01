@@ -1,0 +1,41 @@
+/*IMAGEM FUNDO*/
+.banner {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%), 
+                url("assets/images/banner.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+
+.banner .logo{
+    margin: auto;
+    width:max-content;
+    height: max-content;
+    
+}
+.logo > img{
+    /*border: 10px solid rgba(197, 195, 195, 0.3); /* Borda semi-transparente */
+    border-radius: 100%; /* Suaviza os cantos */
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(darkblue, lightblue);
+    /*-webkit-background-clip: text;*/
+    -webkit-text-fill-color: transparent;  
+}
+p{
+    color: white;
+}
+.banner p{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+button{
+    margin-left: 50%;
+    background: transparent;
+    size: 600px;
+    border: 4px;
+}
